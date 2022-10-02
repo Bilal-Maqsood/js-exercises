@@ -73,7 +73,7 @@ let number = 8;
 
 console.log('My fav number is ', number);
 
-let namesList = ['Umar', 'Adil', 'Ali'];
+let namesList = ['Bilal', 'Adil', 'Ali'];
 
 namesList.forEach(name => {
 	console.log('One of my friends name is ', name);
@@ -105,7 +105,7 @@ GuestList.forEach(name => {
 
 GuestList.forEach(name => {
 	if (name === 'Bilal') {
-		return console.log(name, 'is not comming in dinner party today');
+		return console.log(name, 'is not coming in dinner party today');
 	}
 	console.log('You are invited for dinner', name);
 });
@@ -116,7 +116,7 @@ GuestList.forEach(name => {
 // Start with your program from Exercise 15. Add a print statement to
 // the end of your program informing people that you found a bigger dinner table.
 
-let newGuestList = ['Hassan', 'Adil', 'Zai', 'Umar'];
+let newGuestList = ['Hassan', 'Adil', 'Zai', 'Bilal'];
 
 // start
 newGuestList.unshift('Burhan');
